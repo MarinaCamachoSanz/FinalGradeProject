@@ -1,9 +1,8 @@
 # Final Grade Project
 Bachelor’s Degree in Bioinformatics (UPF-UPC-UB-UAB) 
-
 Author: Marina Camacho Sanz
 #
-In this document a brief description of the aim of each main script in this repository can be found:
+In this document a numered brief description of the aim of each main script in this repository can be found. Firstly, 0 and 1 contains the Main Manuscript and Suplementary materials respectively. From 2 to 15 pre-processing steps. 15 and 16 disease modeling. Results 17. 18-20 plots. 
 
 0. CAMACHO_MARINA_Main_Manuscript.pdf  
 
@@ -29,24 +28,22 @@ In this document a brief description of the aim of each main script in this repo
 
 11. missForest.r --> This scrip receives .csv files containing missing values an inputs mixed-type data (continuous and categorical) including complex interactions and nonlinear relations.
 
-12. reduced.ipynb 
+12. reduced.ipynb --> This script receives the dataset containing all the final exposures used in experiment 1 and creates a reduced dataset with the new ones of interest.
 
-13. comorbidity
+13. comorbidity --> This script was used to create the dataset for analysing depression comorbidity.
 
 14. feature_scaling.ipynb --> This script normalizes and standarizes the given files.
 
-15. function_SaveDementiaEVAll.py --> function designed to 
+15. function_SaveDementiaEVAll.py --> function designed to read the internal and external variables to perform the 
 
 16. run_SaveDementiaEVALL.py --> script that calls function_SaveDementiaEVAll and enters the desired parameters.
 
-17. Folder containging final input matrices for internal and external validation. 
+17. Folder containging results of the experiments when performing run_SaveDementiaEVALL. 
 
-18. Folder containging results of the experiments when performing run_SaveDementiaEVALL. 
+18.  papergraph.R -->
 
-19.  papergraph.R
+19.  DvsDD.R -->
 
-20.  DvsDD.R
-
-21.  plots30.R
+20.  plots30.R -->
 
 
