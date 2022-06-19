@@ -25,7 +25,7 @@ In this document, a numbered brief description of the aim of each script in this
 
 10. data_quality.ipynb --> This script receives as input a file and retrieves the quality of the data in terms of missing values.
 
-11. crear_matriu_final.ipynb --> This script first creates the final datasets for imputation. Then it reads the imputed datasets using the missForest file and adapts the matrix for running the predictive disease modeling.
+11. final_matrices.ipynb --> This script first creates the final datasets for imputation. Then it reads the imputed datasets using the missForest file and adapts the matrix for running the predictive disease modeling.
 
 12. missForest.r --> This scrip receives .csv files containing missing values an inputs mixed-type data (continuous and categorical) including complex interactions and nonlinear relations.
 
