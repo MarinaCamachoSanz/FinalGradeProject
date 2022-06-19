@@ -9,7 +9,7 @@ In this document, a numbered brief description of the aim of each script in this
 
 2. matrices.ipynb --> This script takes as input all feature files encoding exposome variables from the UK Biobank cohort including the data of each participant (around half a million) used in this project. As output, it retrieves matrices, with different characteristics explained in detail inside this jupyter notebook, containing all features data cleaned without inconsistencies collected at baseline, which corresponds to the first time visit.
 
-3. bash.sh --> In this file, there's a summary of the commands used for participant selections at different points of this project with their description.
+3. bash.pdf --> In this file, there's a summary of the commands used for participant selections at different points of this project with their description.
 
 4. dementia_patients_selection.ipynb --> This script takes as input the eids with dementia and its corresponding date of diagnosis. At the end of this file, we will download 2 data frames containing in each row a record of each diagnosis. One data frame contains the cases after a given year and the other one before that year. For each diagnosis, we will encode the patient's unique identifier (at column eid), the code of the given subtype of the disease (at column diagnosis), and the date of the disorder (at column date). This file was created for future multiclass analysis.
 
