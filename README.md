@@ -1,10 +1,5 @@
 # Final Grade Project
 Bachelor’s Degree in Bioinformatics (UPF-UPC-UB-UAB) 
-
-
-
-
-Author: Marina Camacho Sanz
 #
 In this document a numered brief description of the aim of each main script in this repository can be found. Document files (.pdf) 0 and 1 contain the Main Manuscript and Suplementary materials. Files from 2 to 15 corresponds to pre-processing steps which are in bash (.sh), as jupyter notebooks (.ipynb) or R scripts (.R). Then, 15 and 16 the disease modeling files in python (.py) and the retrieved results in the 17 (a folder). Finally from 18 to 2, the R scripts (.R) for plotting the results for analysis and interpretation can be found. 
 
@@ -44,8 +39,13 @@ In this document a numered brief description of the aim of each main script in t
 
 17. Folder containging results of the experiments when performing run_SaveDementiaEVALL. 
 
-18.  papergraph.R -->
+18. plot_performance_dementia.R --> script that plots the performance of experiments 1-5 in internal and external validation separately.
 
-19.  DvsDD.R -->
+19. plot_importance_30.R --> script that plots the 30 most importance variables of a model.
 
-20.  plots30.R --> 
+20. plot_performance_DvsDD.R --> script that plots the performance of experiments 6 in internal and external validation separately.
+#
+I hope you enjoy the project! Thanks for your time.
+
+Marina Camacho Sanz
+
