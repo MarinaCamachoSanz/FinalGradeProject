@@ -1,7 +1,7 @@
 # Final Grade Project
 Bachelor’s Degree in Bioinformatics (UPF-UPC-UB-UAB) 
 #
-In this document, a numbered brief description of the aim of each main script in this repository can be found. Document files (.pdf) 0 and 1 contain the Main Manuscript and Supplementary materials. Files from 2 to 15 correspond to pre-processing steps which are in bash (.sh), as Jupiter notebooks (.ipynb) or R scripts (.R). Then, 15 and 16 the disease modeling files in python (.py) and the input and output results in the folder 17,18. Finally, from 19 to 21, the R scripts (.R) for plotting the results for analysis and interpretation can be found. 
+In this document, a numbered brief description of the aim of each script in this repository can be found. Document files (.pdf) 0 and 1 contain the Main Manuscript and Supplementary materials. Files from 2 to 15 correspond to pre-processing steps which are in bash (.sh), as Jupiter notebooks (.ipynb) or R scripts (.R). Then, 15 and 16 the disease modeling files in python (.py) and the input and output results in the folder 17,18. Finally, from 19 to 21, the R scripts (.R) for plotting the results for analysis and interpretation can be found. 
 
 0. CAMACHO_MARINA_Main_Manuscript.pdf  
 
