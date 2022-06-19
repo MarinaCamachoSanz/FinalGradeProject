@@ -2,7 +2,7 @@
 Bachelor’s Degree in Bioinformatics (UPF-UPC-UB-UAB) 
 Author: Marina Camacho Sanz
 #
-In this document a numered brief description of the aim of each main script in this repository can be found. Firstly, 0 and 1 contains the Main Manuscript and Suplementary materials respectively. From 2 to 15 pre-processing steps. 15 and 16 disease modeling. Results 17. 18-20 plots. 
+In this document a numered brief description of the aim of each main script in this repository can be found. Document files (.pdf) 0 and 1 contain the Main Manuscript and Suplementary materials. Files from 2 to 15 corresponds to pre-processing steps which are in bash (.sh), as jupyter notebooks (.ipynb) or R scripts (.R). Then, 15 and 16 the disease modeling files in python (.py) and the retrieved results in the 17 (a folder). Finally from 18 to 2, the R scripts (.R) for plotting the results for analysis and interpretation can be found. 
 
 0. CAMACHO_MARINA_Main_Manuscript.pdf  
 
@@ -34,7 +34,7 @@ In this document a numered brief description of the aim of each main script in t
 
 14. feature_scaling.ipynb --> This script normalizes and standarizes the given files.
 
-15. function_SaveDementiaEVAll.py --> function designed to read the internal and external variables to perform the 
+15. function_SaveDementiaEVAll.py --> function designed to perform the disease modeling with nested cross-validation and an external validation in each fold.
 
 16. run_SaveDementiaEVALL.py --> script that calls function_SaveDementiaEVAll and enters the desired parameters.
 
@@ -44,6 +44,4 @@ In this document a numered brief description of the aim of each main script in t
 
 19.  DvsDD.R -->
 
-20.  plots30.R -->
-
-
+20.  plots30.R --> 
