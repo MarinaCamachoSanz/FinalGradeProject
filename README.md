@@ -1,5 +1,9 @@
 # Final Grade Project
 Bachelor’s Degree in Bioinformatics (UPF-UPC-UB-UAB) 
+
+
+
+
 Author: Marina Camacho Sanz
 #
 In this document a numered brief description of the aim of each main script in this repository can be found. Document files (.pdf) 0 and 1 contain the Main Manuscript and Suplementary materials. Files from 2 to 15 corresponds to pre-processing steps which are in bash (.sh), as jupyter notebooks (.ipynb) or R scripts (.R). Then, 15 and 16 the disease modeling files in python (.py) and the retrieved results in the 17 (a folder). Finally from 18 to 2, the R scripts (.R) for plotting the results for analysis and interpretation can be found. 
